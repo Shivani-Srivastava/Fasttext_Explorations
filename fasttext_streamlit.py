@@ -9,7 +9,7 @@ import streamlit as st
 import fasttext
 import pandas as pd
 
-model = fasttext.train_supervised(input=https://raw.githubusercontent.com/Shivani-Srivastava/Fasttext_Explorations/main/cooking.train)
+model = fasttext.train_supervised(input="cooking.train")
 
 model.save_model("model_cooking.bin")
 
